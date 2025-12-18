@@ -1,0 +1,45 @@
+{
+  "name": "mywebclass-discovery-qa",
+  "version": "1.0.0",
+  "description": "QA testing suite for MyWebClass.org design gallery",
+  "scripts": {
+    "test": "playwright test",
+    "test:e2e": "playwright test tests/e2e",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:a11y": "playwright test tests/e2e/accessibility.spec.js",
+    "test:report": "playwright show-report",
+    "lighthouse": "lhci autorun",
+    "size": "size-limit",
+    "lint:js": "eslint '**/*.js'",
+    "lint:css": "stylelint '**/*.css'",
+    "lint:md": "markdownlint '**/*.md' --ignore node_modules",
+    "format": "prettier --write '**/*.{js,json,md,yml,yaml}'",
+    "format:check": "prettier --check '**/*.{js,json,md,yml,yaml}'",
+    "build": "echo 'Build command placeholder - update when Eleventy is configured'",
+    "serve": "npx serve _site -l 8080"
+  },
+  "keywords": [
+    "qa",
+    "testing",
+    "playwright",
+    "accessibility",
+    "lighthouse"
+  ],
+  "author": "QA Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@lhci/cli": "^0.13.0",
+    "size-limit": "^10.0.0",
+    "@size-limit/file": "^10.0.0",
+    "eslint": "^8.50.0",
+    "stylelint": "^15.10.0",
+    "markdownlint-cli": "^0.37.0",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
