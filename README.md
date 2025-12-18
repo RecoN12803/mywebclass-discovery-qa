@@ -14,4 +14,3 @@ Scope:
 
 Note:
 This repository does not contain implementation code.
-Execution and deployment are handled in the team repository.
