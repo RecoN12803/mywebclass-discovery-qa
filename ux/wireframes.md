@@ -44,6 +44,37 @@
 - **Focused interactions** - One clear action per page
 - **No distractions** - No ads, popups, or social clutter
 
+### 4. Interaction Design Patterns (Material Design 3.0 & iOS HIG)
+
+**Microinteractions:**
+- **Card hover states** - Subtle elevation (+2dp shadow), 200ms ease-in-out transition
+- **Button feedback** - Ripple effect on click (Material Design), scale 0.98 on press (iOS)
+- **Loading indicators** - Skeleton screens (preferred) or spinner (max 2s tolerance)
+- **Success animations** - Checkmark fade-in with elastic easing (500ms duration)
+
+**Feedback & Affordances:**
+- **Clickable elements** - Cursor: pointer, hover state required, min 44x44px touch target (WCAG/iOS HIG)
+- **Form validation** - Inline validation on blur, success/error states with icon + color + text
+- **Disabled states** - Opacity 0.38 (Material), clear visual distinction from enabled
+- **Focus indicators** - 2px solid outline, high contrast (3:1 minimum), never removed
+
+**Loading States (Google RAIL Model):**
+- **Immediate response** - <100ms for interactions (perceived as instantaneous)
+- **Progress indication** - Show within 1s for operations >1s duration
+- **Skeleton screens** - For content loading >2s, matches final layout structure
+- **Optimistic UI** - Show expected state immediately, roll back if fails
+
+**Error Handling:**
+- **Graceful degradation** - Core functionality works without JavaScript
+- **Error messages** - Specific, actionable, polite tone (Nielsen Norman Group guidelines)
+- **Retry mechanisms** - Clear "Try Again" CTAs, exponential backoff for network errors
+- **Offline support** - Service worker caching for previously viewed content
+
+**Empty States:**
+- **Illustrative + instructive** - Image/icon + explanation + CTA
+- **First-time user** - "No designs yet" + "Browse Gallery" CTA
+- **Search no results** - Suggest filters/alternative queries
+
 ---
 
 ## Typography & Spacing

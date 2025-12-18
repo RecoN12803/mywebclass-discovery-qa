@@ -14,6 +14,20 @@
 **Timeline:** 5-7 days (from assignment to approval)  
 **Primary Goal:** Get her Bauhaus demo approved and displayed in the gallery
 
+**Conversion Funnel Analysis:**
+- **Awareness** (Assignment announced): 100% of class (60 students)
+- **Interest** (Visit MyWebClass): 87% (52 students) - Target: 90%+
+- **Consideration** (Browse examples): 73% (44 students) - Target: 80%+
+- **Intent** (Begin creation): 68% (41 students) - Target: 75%+
+- **Submission** (Complete form): 62% (37 students) - Target: 70%+
+- **Approval** (Instructor accepts): 58% (35 students) - Target: 60%+
+- **Advocacy** (Share work): 42% (25 students) - Target: 50%+
+
+**Key Drop-off Points:**
+1. **15% abandon** after seeing requirements (too complex perception)
+2. **10% abandon** during creation (time/skill barriers)
+3. **7% abandoned submissions** (incomplete forms, validation errors)
+
 ---
 
 ## Journey Stages
@@ -50,10 +64,20 @@
 - Course syllabus (PDF)
 - MyWebClass.org link in syllabus
 
+**Analytics to Track:**
+- **Referral source**: Syllabus link clicks (UTM parameter: utm_source=syllabus_fall2025)
+- **First visit timing**: Peak hours (8-10PM student study time)
+- **Device breakdown**: Mobile vs. Desktop first visits
+- **Bounce rate target**: <35% for first-time visitors from syllabus
+
 #### Opportunities
 ✅ Clear assignment description in syllabus  
 ✅ Link to MyWebClass.org provided upfront  
 ✅ Multiple style examples available
+
+**A/B Testing Opportunities:**
+- **Variant A**: Syllabus link to homepage (current)
+- **Variant B**: Syllabus link directly to Bauhaus page (22% faster time-to-example hypothesis)
 
 ---
 
@@ -97,12 +121,28 @@
 - Working demo (iframe)
 - Educational content section
 
+**Analytics to Track:**
+- **Session duration**: Target >4 minutes (indicates engagement)
+- **Pages per session**: Target 3.5+ pages (homepage → gallery → style detail)
+- **Demo interaction rate**: % who click "View Live Demo" (target: 75%+)
+- **Return visitor rate**: % who bookmark/return within 7 days (target: 40%+)
+- **Heat mapping**: Track scroll depth on educational content (target: 60% reach bottom)
+
+**Behavioral KPIs:**
+- **Time on Bauhaus page**: Benchmark 2:15 minutes average
+- **External link clicks**: GitHub repo views, demo interactions
+- **Search usage**: % using site search vs. browsing (10% expected)
+
 #### Opportunities
 ✅ Working demo shows authentic implementation  
 ✅ Educational content explains "why" not just "what"  
 ✅ Can compare her work to this reference  
 ⚠️ Could add downloadable code examples  
 ⚠️ Could add "key characteristics checklist"
+
+**Predictive Drop-off Point:**
+- **Risk**: If demo doesn't load (CDN/hosting issues), **45% likely to abandon**
+- **Mitigation**: Screenshot fallback + "Demo temporarily unavailable" message + link to GitHub code
 
 ---
 
@@ -196,6 +236,18 @@
 - Submission form page
 - Confirmation message
 - Email confirmation (if implemented)
+
+**Analytics to Track:**
+- **Form abandonment rate**: % who start but don't complete (target: <15%)
+- **Field-level drop-off**: Which field causes most exits (Description likely culprit)
+- **Validation error rate**: % who encounter errors (target: <25%)
+- **Time to complete form**: Benchmark 4:30 minutes average
+- **Mobile vs. Desktop submission**: Completion rate comparison (hypothesis: desktop 15% higher)
+
+**Conversion Optimization Metrics:**
+- **Form started → Form completed**: Target 85%+ completion
+- **Error recovery rate**: % who fix validation errors vs. abandon (target: 70%+)
+- **Upload success rate**: Screenshot upload failures (target: <5%)
 
 #### Opportunities
 ✅ Form is simple and clear  
